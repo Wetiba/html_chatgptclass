@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="static/css/formstyle.css">
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Registration</title>
+</head>
+<body>
+<div class="form-box">
+    <form method="post" action="">
+        <h2>Create an Account</h2>
+        <label for="fname">First Name</label>
+        <input type="text" id="fname" name="fname" required placeholder="Firstname">
+        <label for="lname">Lastname</label>
+        <input type="text" id="lname" name="lname" required placeholder="LastName">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" required placeholder="Email">
+        <label for="pass">Password</label>
+        <input type="password" id="pass" name="pass" required placeholder="Password">
+        <label for="cpass"> Confirm Password</label>
+        <input type="password" id="cpass" name="cpass" required placeholder="Confirm Password">
+        <label for="dob">Date of birth</label>
+        <input type="date" id="dob" name="dob">
+        <label for="male">Male</label>
+        <input type="radio" id="male" name="gender" required>
+        <label for="Female">Female</label>
+        <input type="radio" id="Female" name="gender" required>
+        <label for="other"> Other</label>
+        <input type="radio" id="other" name="gender">
+        <label for="course">Course Selected</label>
+        <select name="course" id="course">
+            <option value="js">Javascript</option>
+            <option value="react">Reactjs</option>
+            <option value="Cybe">CyberSecurity</option>
+            <option value="Data">Datascience</option>
+            <option value="lar">Laravel</option>
+            <option value="Spri">SpringBoot</option>
+
+        </select>
+        <label for="upload">Upload Prof pic</label>
+        <input type="file" id="upload" name="upload" required>
+
+        <button type="submit">Register</button>
+        
+
+    </form>
+    
+</div>
+
+
+
+</body>
+</html>
